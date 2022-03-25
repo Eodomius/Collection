@@ -3,14 +3,14 @@
   "version": "1.0.1",
   "description": "This module is an utility for managing data in the form of Map.",
   "main": "lib/index.js",
-  "types": "./typing/index.d.ts",
+  "types": "./typings/index.d.ts",
   "directories": {
     "lib": "lib",
     "test": "test"
   },
   "scripts": {
     "build": "tsc",
-    "build:typing": "tsc --build tsconfig.typing.json"
+    "build:typings": "tsc --build tsconfig.typing.json"
   },
   "repository": {
     "type": "git",
